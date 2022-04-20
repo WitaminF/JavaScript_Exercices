@@ -1,2 +1,2 @@
 # JavaScript_Exercices
-Exercices javascript tiré de w3resource
+Divers exercice pour m'entrainer au language javascript
