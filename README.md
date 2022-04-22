@@ -8,6 +8,9 @@ Par From Scratch - Développement web (formation payante)<br>
 Réalisé par Florent Scheibler sur PhpStorm <br>
 *Avril 2022*
 
+## Cours :
+-Cours 1 : les bases JS
+
 ## Travaux pratiques :
 
 - TP1 : 
