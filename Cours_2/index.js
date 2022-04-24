@@ -1,33 +1,16 @@
-let total = 0;
+// SELECTEURS:
 
-function addition(x) {
-  total += x;
-  return total;
-}
+//Va cherche la balise body
+//document.querySelector('body');
 
-function soustraction(x) {
-  total -= x;
-  return total;
-}
+//document.querySelector("h4");
 
-function division(x) {
-  if (total === 0) {
-    return (total = x);
-  } else {
-    total /= x;
-    return total;
-  }
-}
+//document.querySelector(".box");
 
-function multiplication(x) {
-  if (total === 0) {
-    return (total = x);
-  } else {
-    total *= x;
-    return total;
-  }
-}
+//document.querySelector("#btn-1").style.background = "yellow";
 
-function reset() {
-  total = 0;
-}
+//const baliseHTML=document.querySelector(".box");
+
+//baliseHTML.style.background = "yellow";
+
+//Click event
