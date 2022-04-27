@@ -9,7 +9,8 @@ Réalisé par Florent Scheibler sur PhpStorm <br>
 *Avril 2022*
 
 ## Cours :
--Cours 1 : les bases JS
+- Cours 1 : les bases JS
+- Cours 2 : le DOM
 
 ## Travaux pratiques :
 
