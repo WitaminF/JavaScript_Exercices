@@ -68,3 +68,29 @@ response.addEventListener("mouseover", () =>{
 // --------------------------------------
 //Keypress event
 
+const keypressContainer = document.querySelector(".keypress");
+const key = document.getElementById("key");
+
+const ring = (key) => {
+    const audio = new Audio();
+    audio.src = "Ressources/cours/" + key + ".mp3";
+    audio.play();
+};
+
+
+document.addEventListener("keypress", (e)=>{
+    key.textContent = e.key;
+    if (e.key === "j"){
+        keypressContainer.style.background = "pink";
+    }else if (e.key === "e"){
+        keypressContainer.style.background = "teal";
+    }else {
+        keypressContainer.style.background = "red";
+    }
+
+    ring(e.key);
+});
+
+
+
+
