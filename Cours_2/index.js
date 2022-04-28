@@ -136,6 +136,15 @@ form.addEventListener("submit", (e) =>{
     }
 });
 
+// Load Event ---------------------------------------------------------
+
+window.addEventListener("load", () =>{
+    console.log("Document chargé")
+})
+
+// ForEach ------------------------------------------------------------
+
+
 
 
 
