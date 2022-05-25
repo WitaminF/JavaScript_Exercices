@@ -19,6 +19,6 @@ Correction du cours et des travaux pratiques
 - addEventListener VS onclick
 - stopPropagation, removeEventListenner
 
-Réalisé par Florent Scheibler, avril-mai 2022
+Réalisé par Florent Scheibler, mai-juin 2022
 
 

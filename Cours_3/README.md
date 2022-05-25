@@ -1,4 +1,4 @@
-# Cours no3 - La data
+# Cours no3 - Le traitement des données
 
 ## Dossier Ressources :
 
