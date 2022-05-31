@@ -64,10 +64,11 @@ document.querySelector("form").addEventListener("submit", ()=>{
 //Asynchrone
 //Executer du code en attendant le résultat
 
+/*
 setTimeout(()=> {
     console.log("test")
 }, 2000);
-
+*/
 
 /*
 //Promise, après le then le code sera executer uniquement quand on aura un retour de fetch
@@ -87,6 +88,38 @@ const fetchData2 = async() => {
     await ..
 }
 */
+
+//------------------
+//LE JSON
+//----------------
+
+// Méhthode .json() => méthode qui s'auto-résout en renvoyant le Body de la requête
+
+fetch("data.json")
+    .then((res) => res.json())
+    .then ((data) => {
+        //Stringify => converti en json
+        let settings = JSON.stringify(data);
+        //Parse => transforme json en objet JS
+        console.log(JSON.parse(settings));
+    });
+
+//-----------------------
+//Web API
+//-----------------------
+//CLIENT STORAGE
+//-----------------------
+
+//Local storage
+
+
+
+
+
+
+
+
+
 
 
 
