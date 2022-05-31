@@ -61,3 +61,35 @@ document.querySelector("form").addEventListener("submit", ()=>{
 })
 
 //-----------------------
+//Asynchrone
+//Executer du code en attendant le résultat
+
+setTimeout(()=> {
+    console.log("test")
+}, 2000);
+
+
+/*
+//Promise, après le then le code sera executer uniquement quand on aura un retour de fetch
+fetch("monline").then((res) => res)
+
+//Async/await
+async function fetchData(){
+    await fetch("monlien")
+    //attend que await soit executé avant de faire la suite
+    //On peut en mettre plusieurs à la suite
+    await executeFunction()
+};
+
+//Fonction fléchée, toujours avec le paramètre
+const fetchData2 = async() => {
+    await ..
+    await ..
+}
+*/
+
+
+
+
+
+
