@@ -1,5 +1,9 @@
 {
-  "posts" : [
-
+  "posts": [
+    {
+      "pseudo": "From Scratch",
+      "message": "Salut les gens",
+      "id": 1
+    }
   ]
 }
