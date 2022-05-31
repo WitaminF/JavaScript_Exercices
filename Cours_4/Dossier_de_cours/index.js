@@ -101,7 +101,7 @@ fetch("data.json")
         //Stringify => converti en json
         let settings = JSON.stringify(data);
         //Parse => transforme json en objet JS
-        console.log(JSON.parse(settings));
+        //console.log(JSON.parse(settings));
     });
 
 //-----------------------
@@ -111,6 +111,33 @@ fetch("data.json")
 //-----------------------
 
 //Local storage
+//Il faut passer des chaines de caractères
+//localStorage.data = "Je stock la data dans ma boite";
+localStorage.removeItem("data")
+document.body.textContent = localStorage.data;
+
+const obj = {
+    name: "Denis",
+    age: 22,
+};
+
+localStorage.user = JSON.stringify(obj);
+//document.body.textContent = localStorage.user;
+//console.log(JSON.parse(localStorage.user));
+
+//-------------------
+//Session Storage
+sessionStorage.dataSettings = "55px";
+sessionStorage.clear();
+
+//----------------
+//Cookies
+//Rest le temps de la session
+document.cookie = "username=Florent"
+
+//Bonne pratique pour les cookies
+document.cookie = "pseudo=FS; path=/; max-age=4500000; secure; samesite";
+
 
 
 
