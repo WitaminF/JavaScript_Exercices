@@ -11,6 +11,7 @@ Réalisé par Florent Scheibler sur PhpStorm <br>
 ## Cours :
 - Cours 1 : les bases JS
 - Cours 2 : le DOM
+- Cours 3 : le traitement des données
 
 ## Travaux pratiques :
 
