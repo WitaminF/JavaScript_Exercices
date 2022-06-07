@@ -19,4 +19,4 @@ Correction du cours et des travaux pratiques
 - Les cookies
 - Projet : Meal API
 
-Réalisé par Florent Scheibler, Juin-Juillet 2022
+Réalisé par Florent Scheibler, Juin 2022
